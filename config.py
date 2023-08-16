@@ -18,10 +18,10 @@ CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001422964183"))
 OWNER_ID = int(os.environ.get("OWNER_ID", "907544310"))
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "postgresql://mxyspspz:vc5-Pd2-d_dGr58zPBzowKMsxAaM8_ih@baasu.db.elephantsql.com/mxyspspz")
+DB_URI = os.environ.get("DATABASE_URL", "postgres://qybgahhb:xBt6aXPvX3h6O9oyxsQ-yJWFe2IAV_ao@bubble.db.elephantsql.com/qybgahhb")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001857806665"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001962999338"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
@@ -41,7 +41,7 @@ FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {first}\n\n<b>Anda Bergab
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
 
 #set True if you want to prevent users from forwarding files from bot
-PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False
+PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "True") == "True" else False
 
 #Set true if you want Disable your Channel Posts Share button
 if os.environ.get("DISABLE_CHANNEL_BUTTON", True) == 'True':
